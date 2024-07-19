@@ -1,0 +1,186 @@
+.map-container {
+    position: absolute;
+    width: 100%;
+    height: calc(100%-2.875rem);
+    top: 2.875rem;
+    bottom: 0;
+}
+  
+  .fly-options {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: grid;
+    gap: 5px;
+    height: auto;
+    width: auto;
+    z-index: 1000;
+  }
+  
+  .fly-options .fly-btn {
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    align-content: center;
+    text-align: center;
+    color: #93CFF1;
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgba(0,76,130,0.65), rgba(0,16,28,0.71));
+  }
+  .fly-options .fly-btn:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+  }
+  .fly-options .fly-btn div {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  .fly-options .return-btn {
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    align-content: center;
+    text-align: center;
+    color: #93CFF1;
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgba(0,76,130,0.65), rgba(0,16,28,0.71));
+  }
+  .fly-options .return-btn:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+  }
+  .fly-options .return-btn div {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  .fly-options .mark-btn {
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    align-content: center;
+    text-align: center;
+    color: #93CFF1;
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgba(0,76,130,0.65), rgba(0,16,28,0.71));
+  }
+  .fly-options .mark-btn:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+  }
+  .fly-options .mark-btn div {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  .fly-options .takeoff-btn {
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    align-content: center;
+    text-align: center;
+    color: #93CFF1;
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgba(0,76,130,0.65), rgba(0,16,28,0.71));
+  }
+  .fly-options .takeoff-btn:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+  }
+  .fly-options .takeoff-btn div {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  .circle-controls {
+    position: absolute;
+    top: 37%;
+    left: 110%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .circle-card {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #65A9E0;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circle-card:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+  }
+  
+  .circle-card.mark:hover {
+    background-color: #0077b5;
+  }
+  
+  .circle-card.mark:hover .symbol {
+    fill: white;
+  }
+  
+  .circle-card.remove:hover {
+    background-color: #ff5722;
+  }
+  
+  .circle-card.remove:hover .symbol {
+    fill: white;
+  }
+  
+  .circle-card.clear:hover {
+    background-color: #f44336;
+  }
+  
+  .circle-card.clear:hover .symbol {
+    fill: white;
+  }
+  
+  .circle-card .symbol {
+    fill: #333;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .circle-card .label {
+    position: absolute;
+    bottom: -15px;
+    font-size: 0.75rem;
+    color: #004C82;
+  }
+  
+  .waypoint-table {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #5497D7;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    padding-left: 5px;
+  }
+  
+  .waypoint-table table {
+    width: 100%;
+    border-collapse: collapse;
+    color: black;
+    font-weight: 500;
+  }
+  
+  .waypoint-table th, .waypoint-table td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #004C82;
+  }
+  
+  .waypoint-table th {
+    background-color: #5497D7;
+ }

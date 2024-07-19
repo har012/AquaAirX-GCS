@@ -1,0 +1,78 @@
+#langdrpbox {
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+    width: 175px;
+    margin-left: 5.28rem;
+}
+#colorschmdrpbox {
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+    width: 175px;
+    margin-left: 3.265rem;
+}
+#mapprovdrpbox {
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+    width: 175px;
+    margin-left: 3.405rem;
+}
+#maptypdrpbox {
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+    width: 175px;
+    margin-left: 5.245rem;
+}
+#strmgcsposidrpbox {
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+    width: 175px;
+}
+
+.inpcont {
+    display: flex;
+    margin-left: 5.26rem;
+    padding-top: 2px;
+}
+.inpcont .minus {
+    width: 25px;
+    background-color: #5497D7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inpcont .plus{
+    width: 25px;
+    background-color: #5497D7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.minuslogo, .pluslogo {
+    color: white;
+}
+
+.uiscaleinp {
+    width: 50px;
+    border: none;
+    background-color: #93CFF1;
+    text-align: center;
+}
+
+.appsavpath {
+    width: 300px;
+    background-color: #93CFF1;
+    border: none;
+}
+
+.pqr {
+    margin-top: 15px;
+    text-align: center;
+}
+.browse-btn {
+    background-color: #5497D7;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}

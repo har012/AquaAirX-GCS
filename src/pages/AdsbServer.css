@@ -1,0 +1,9 @@
+.hstaddinp, .servprtinp {
+    background-color: #93CFF1;
+    border: none;
+    width: 150px;
+}
+
+.servprtinp {
+    margin-left: 1.1rem;
+}

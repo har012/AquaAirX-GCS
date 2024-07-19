@@ -1,0 +1,58 @@
+.set1, .set2 {
+    margin-bottom: 4px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #93CFF1;
+    line-height: 100%;
+}
+.set1 .set1-main,  .set2 .set2-main {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 2px;
+}
+.set1 .set1-sub,  .set2 .set2-sub {
+    display: flex;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+}
+.set1 .set1-sub div,  .set2 .set2-sub div {
+    margin-left: 2.1rem;
+    margin-right: 20px;
+}
+.set1 .set1-sub .survinacc, .set1 .set1-sub .minobstime,
+.set2 .set2-sub .bsposlat, .set2 .set2-sub .bsposlon,
+.set2 .set2-sub .bsposalt, .set2 .set2-sub .bsposacc {
+    background-color: #93CFF1;
+    border: none;
+}
+
+.set1 .set1-sub .minobstime {
+    margin-left: 2.7rem;
+}
+.set2 .set2-sub .bsposlat {
+    margin-left: 5.5rem;
+}
+.set2 .set2-sub .bsposlon {
+    margin-left: 4.45rem;
+}
+.set2 .set2-sub .bsposalt {
+    margin-left: 3.3rem;
+}
+.set2 .set2-sub .bsposacc {
+    margin-left: 5.1rem;
+}
+
+.inactive {
+    opacity: 0.5;
+}
+.inactive input[type="text"] {
+    pointer-events: none;
+}
+
+.bspos-btn {
+    margin-top: 10px;
+    background-color: #5497D7;
+    display: inline-block;
+    padding: 5px 10px;
+    line-height: 100%;
+}

@@ -1,0 +1,122 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+  
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    text-align: center;
+}
+  
+.popup-content h2 {
+    margin-bottom: 15px;
+}
+
+.popup-content .comm-name {
+    display: flex;
+    line-height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+  
+.popup-content .comm-name div {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 1.1rem;
+}
+  
+.popup-content .comm-name .commnameinp {
+    background-color: #93CFF1;
+    border: none;
+    width: 100%;
+    height: 30px;
+    margin: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.popup-content .lmn {
+    display: flex;
+    line-height: 100%;
+    gap: 20px;
+    font-size: 1.1rem;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.popup-content .advsett {
+    margin-top: 10px;
+}
+.popup-content .lmn input {
+    margin: 0;
+}
+
+.comm-type, .comm-srlport, .comm-baudrate, .comm-parity, .comm-databits, .comm-stopbits {
+    display: flex;
+    line-height: 100%;
+    font-size: 1.1rem;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .comm-type div, .comm-srlport div, .comm-baudrate div, .comm-parity div, .comm-databits div, .comm-stopbits div {
+    border: 1px solid red;
+} */
+
+#commtypedrpdwn, #commsrlportdrpdwn, #commbaudraedrpdwn, #commparitydrpdwn, #commdatabitsdrpdwn, #commstopbitsdrpdwn {
+    background-color: #93CFF1;
+    border: none;
+    width: 250px;
+    height: 30px;
+    margin: auto;
+    margin-left: 5px;
+    margin-right: 0px;
+}
+  
+.popup-content button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.savebtn {
+    margin-top: 20px !important;
+}
+  
+.popup-content button:first-of-type {
+    background-color: #4CAF50;
+    color: white;
+}
+  
+.popup-content button:last-of-type {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Advanced options transition */
+.advanced-options {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.advanced-options.visible {
+    max-height:500px;
+}

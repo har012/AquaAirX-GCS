@@ -1,0 +1,128 @@
+  /* .maps-small-content {
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    cursor: pointer;
+  }
+  
+  .maps-full-screen {
+    position: absolute;
+    top: 2.875rem;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 3.1rem);
+    background-color: lightblue;
+    z-index: 1;
+  }
+
+  .map-content {
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    width: auto;
+    height: auto;
+    z-index: 2;
+    display: grid;
+    gap: 5px;
+  }
+
+  .map-content .plan-btn {
+    align-content: center;
+    text-align: center;
+    color: #93CFF1;
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgba(0,76,130,0.65), rgba(0,16,28,0.71));
+  }
+  .map-content .plan-btn div {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  .map-content .takeoff-btn {
+    align-content: center;
+    text-align: center;
+    color: #93CFF1;
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgba(0,76,130,0.65), rgba(0,16,28,0.71));
+  }
+  .map-content .takeoff-btn div {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  .map-content .return-btn {
+    align-content: center;
+    text-align: center;
+    color: #93CFF1;
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgba(0,76,130,0.65), rgba(0,16,28,0.71));
+  }
+  .map-content .return-btn div {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  .resizable-rectangle {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: lightblue;
+    cursor: se-resize;
+    z-index: 1;
+  }
+
+  .mapframe {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .maps-small-content .smallmapcover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    border: 1px solid red;
+  } */
+
+
+
+
+
+.map-body {
+  /* border: 1px solid red; */
+  background-color: #004C82;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 25%;
+  margin: 2.5px 0 5px 0;
+}
+
+.map-body .extend-btn {
+  background-color: #fff;
+  border-radius: 2px 5px 2px 5px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 5px;
+  left: 5px;
+  text-align: center;
+  align-content: center;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.map-body .extend-btn:hover {
+  transform: scale(0.9);
+  background-color: #d1d1d1;
+  cursor: pointer;
+}
+
+.extend-icon {
+  margin-top: 3px;
+  transform: scaleX(-1);
+  color: #004C82;
+  font-size: 1.1rem;
+}

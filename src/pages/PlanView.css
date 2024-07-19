@@ -1,0 +1,20 @@
+.container {
+    width: auto;
+    height: fit-content;
+    padding: 5rem 15rem;
+    background-color: #004C82;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.container .wrapper .defmisaltinp {
+    width: 150px;
+    margin-left: 0.3rem;
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+}
+.container .wrapper .vtoltransdistinp {
+    width: 150px;
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+}

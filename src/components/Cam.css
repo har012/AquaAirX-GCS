@@ -1,0 +1,202 @@
+  /* .cam-small {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(70, 70, 70);
+  }
+
+  .cam-full-screen {
+    position: absolute;
+    top: 2.875rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(70, 70, 70);
+    z-index: 0;
+  }
+
+  .cam-content {
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    width: auto;
+    height: auto;
+    z-index: 2;
+    display: grid;
+    gap: 5px;
+  }
+
+  .cam-content .plan-btn {
+    align-content: center;
+    text-align: center;
+    color: #93CFF1;
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgba(0,76,130,0.65), rgba(0,16,28,0.71));
+  }
+  .cam-content .plan-btn div {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  .cam-content .takeoff-btn {
+    align-content: center;
+    text-align: center;
+    color: #93CFF1;
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgba(0,76,130,0.65), rgba(0,16,28,0.71));
+  }
+  .cam-content .takeoff-btn div {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  .cam-content .return-btn {
+    align-content: center;
+    text-align: center;
+    color: #93CFF1;
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgba(0,76,130,0.65), rgba(0,16,28,0.71));
+  }
+  .map-content .return-btn div {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  .resizable-rectangle {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: lightblue;
+    cursor: se-resize;
+    z-index: 1;
+  }
+
+  .smallcamcover {
+    height: 80%;
+    background-color: transparent;
+  } */
+
+
+
+.cam-body {
+  position: absolute;
+  top: 2.875rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #93CFF1;
+  z-index: 0;
+}
+.home-icon-container {
+  display: grid;
+  grid-template-columns: repeat(5, 48px);
+  gap: 10px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.home-icon-container .plan-btn, .home-icon-container .takeoff-vehicle-btn, .home-icon-container .return-vehicle-btn,
+.home-icon-container .radar-view-btn, .home-icon-container .cam-view-btn {
+  background-color: white;
+  /* position: relative; */
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  color: #004C82;
+  align-content: center;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.home-icon-container .card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.home-icon-container .plan-btn:hover {
+  background-color: #004C82;
+  color: white;
+}
+.home-icon-container .takeoff-vehicle-btn:hover {
+  background-color: #4caf50;
+  color: white;
+}
+.home-icon-container .return-vehicle-btn:hover {
+  background-color: #ff2222;
+  color: white;
+}
+.home-icon-container .radar-view-btn:hover {
+  background-color: #066D10;
+  color: white;
+}
+.home-icon-container .cam-view-btn:hover {
+  background-color: #004C82;
+  color: white;
+}
+
+.symbol {
+  margin-top: 13px;
+  font-size: 1.5rem;
+}
+
+.label {
+  font-size: 0.8rem;
+  color: #000;
+  position: relative;
+  top: 4px;
+  font-weight: 600;
+}
+
+.cam-body .home-side {
+  /* border: 1px solid red; */
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  top: 0;
+  width: 20%;
+}
+
+.cam-body .home-side .add-data-btn {
+  background-color: #004C82;
+  border-radius: 2px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 0px;
+  top: 5px;
+  align-content: center;
+  text-align: center;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.cam-body .home-side .add-data-btn:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.cam-body .home-side .home-data-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  position: absolute;
+  top: 24px;
+  height: 44%;
+  /* overflow: auto; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.cam-body .home-side .home-data-overlay div {
+  width: fit-content;
+  height: fit-content;
+  /* margin-bottom: 5px; */
+  font-weight: bold;
+}
+
+.cam-body .home-side .home-data-overlay .battery-data {
+  display: flex;
+}
+.cam-body .home-side .home-data-overlay .battery-data .battery-icon {
+  rotate: 90deg;
+}

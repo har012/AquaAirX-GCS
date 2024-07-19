@@ -1,0 +1,87 @@
+.container {
+    width: auto;
+    height: fit-content;
+    padding: 5rem 15rem;
+    background-color: #004C82;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.container .xyz {
+    display: flex;
+    gap: 20px;
+    font-size: 1.1rem;
+    margin-top: 0.5px;
+    margin-bottom: 0.5px;
+}
+.container .xyz div {
+    color: #93CFF1;
+    font-weight: 500;
+}
+
+.normal-setting, .guided-setting, .video-setting {
+    width: fit-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.setting-type {
+    font-size: 1.2rem;
+    color: #93CFF1;
+}
+
+.wrapper {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+.minaltinp {
+    width: 150px;
+    height: 22px;
+    margin-left: 5.34rem;
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+}
+.maxaltinp {
+    width: 150px;
+    margin-left: 5.15rem;
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+}
+.gotomaxdist {
+    width: 150px;
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+}
+
+#srcdrpbox {
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+    width: 175px;
+    margin-left: 11.07rem;
+}
+.udpportinp {
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+    width: 175px;
+    margin-left: 9.9rem;
+}
+.aspratinp {
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+    width: 175px;
+    margin-left: 8.2rem;
+}
+#recfiledrpbox {
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+    width: 175px;
+    margin-left: 5.1rem;
+}
+#viddecopridrpbox {
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+    width: 175px;
+    margin-left: 3.55rem;
+}

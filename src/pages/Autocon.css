@@ -1,0 +1,27 @@
+.container .wrapper .abc {
+    display: flex;
+    gap: 10px;
+    font-size: 1.1rem;
+    margin-top: 0.5px;
+    margin-bottom: 0.5px;
+}
+.container .wrapper .abc div {
+    color: #93CFF1;
+    font-weight: 500;
+}
+
+.opq {
+    display: flex;
+    margin-top: 15px;
+    gap: 20px;
+    justify-content: center;
+    font-size: 1.1rem;
+    color: #93CFF1;
+    font-weight: 500;
+}
+
+#nmeagpsdev {
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+    width: 175px;
+}

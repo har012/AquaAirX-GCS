@@ -1,0 +1,29 @@
+#hrztdistdrpbox {
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+    width: 175px;
+}
+#vertdistdrpbox {
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+    width: 175px;
+    margin-left: 1.5rem;
+}
+#areadrpbox {
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+    width: 175px;
+    margin-left: 7.5rem;
+}
+#spddrpbox {
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+    width: 175px;
+    margin-left: 6.7rem;
+}
+#tempdrpbox {
+    background-color: #93CFF1;
+    border: 1px solid #004C82;
+    width: 175px;
+    margin-left: 3.49rem;
+}
