@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './index.css';
 import Topbar from './components/Topbar';
-import Sidebar from './components/Sidebar';
 import Maps from './components/Maps';
-import Plan from './components/Plan';
+// import Plan from './components/Plan';
 import Cam from './components/Cam'
+import Homepage from './pages/Homepage';
 import Settings from './pages/Settings';
 
 function App() {
@@ -17,7 +17,8 @@ function App() {
           <>
             <Topbar />
             {/* <Maps /> */}
-            <Cam />
+            {/* <Homepage /> */}
+            <Cam />           
           </>
         } />
         <Route path="/settings" element={<Settings />} />
